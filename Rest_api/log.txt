@@ -1,0 +1,18 @@
+1719422284808 : GET : /api/users/1002
+1719422317490 : GET : /api/users/100
+1719422328180 : GET : /api/users
+1719422376795 : POST : /api/users
+1719422406306 : GET : /api/users/100
+1719422505558 : GET : /api/users/1003
+1719422672052 : GET : /api/users
+1719422683300 : GET : /api/users/1002
+1719422819988 : POST : /api/users
+1719422849559 : GET : /api/users/1004
+1719423023648 : ::1 : GET : /api/users/1004
+1719424954109 : ::1 : GET : /api/users/1004
+1719426080585 : ::1 : GET : /api/users/1004
+1719426110883 : ::1 : POST : /api/users
+1719426506413 : ::1 : POST : /api/users
+1719426539690 : ::1 : POST : /api/users
+1719426558543 : ::1 : POST : /api/users
+1719426624679 : ::1 : POST : /api/users
