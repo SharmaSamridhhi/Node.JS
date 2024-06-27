@@ -49,10 +49,6 @@ app
     const user = users.find((user) => user.id === id);
     return res.json(user);
   })
-  .patch((req, res) => {
-    //edit user with id
-    return res.json({ status: "pending" });
-  })
   .delete((req, res) => {
     //delete user with id
     return res.json({ status: "pending" });

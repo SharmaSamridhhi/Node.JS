@@ -16,3 +16,16 @@
 1719426539690 : ::1 : POST : /api/users
 1719426558543 : ::1 : POST : /api/users
 1719426624679 : ::1 : POST : /api/users
+1719462160318 : ::1 : PATCH : /api/users/:id
+1719462172553 : ::1 : PATCH : /api/users/1001
+1719463081643 : ::1 : PATCH : /api/users/1001
+1719463086202 : ::1 : PATCH : /api/users/1001
+1719463112136 : ::1 : GET : /api/users
+1719463124876 : ::1 : PATCH : /api/users/1006
+1719463137414 : ::1 : PATCH : /api/users/1006
+1719463152986 : ::1 : GET : /api/users
+1719463373567 : ::1 : PATCH : /api/users/1006
+1719463399285 : ::1 : PATCH : /api/users/1006
+1719463414797 : ::1 : PATCH : /api/users/1006
+1719463468924 : ::1 : PATCH : /api/users/1006
+1719463482603 : ::1 : PATCH : /api/users/1006
