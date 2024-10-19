@@ -7,25 +7,25 @@ const PORT = 8000;
 
 app.use(express.urlencoded({ extended: false }));
 
-// app.use((req, res, next) => {
-//   console.log("hello from middleware 1");
-//   req.myUserName = "piyushgarg.dev";
-//   next();
-// });
-// app.use((req, res, next) => {
-//   console.log(`hello ${req.myUserName} from middleware 2`);
-//   res.end("response ended!!!!");
-// });
-
 app.use((req, res, next) => {
-  fs.appendFile(
-    "log.txt",
-    `\n${Date.now()} : ${req.ip} : ${req.method} : ${req.path}`,
-    (err, data) => {
-      next();
-    }
-  );
+  console.log("hello from middleware 1");
+  req.myUserName = "piyushgarg.dev";
+  next();
 });
+app.use((req, res, next) => {
+  console.log(`hello ${req.myUserName} from middleware 2`);
+  res.end("response ended!!!!");
+});
+
+// app.use((req, res, next) => {
+//   fs.appendFile(
+//     "log.txt",
+//     `\n${Date.now()} : ${req.ip} : ${req.method} : ${req.path}`,
+//     (err, data) => {
+//       next();
+//     }
+//   );
+// });
 
 app.get("/users", (req, res) => {
   const html = `
